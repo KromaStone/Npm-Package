@@ -1,0 +1,43 @@
+{
+  "name": "grootify",
+  "version": "1.0.0",
+  "description": "A React notification library for customizable alert popups",
+  "main": "dist/grootify.umd.js",
+  "module": "dist/grootify.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "style": "dist/style.css",
+  "exports": {
+    "import": "./dist/grootify.mjs",
+    "require": "./dist/grootify.umd.js",
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/grootify.mjs",
+      "require": "./dist/grootify.umd.js"
+    }
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "react",
+    "notification",
+    "alerts",
+    "popup",
+    "library"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,41 @@
+/* src/styles/grootify.css */
+.grootify-alert {
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem;
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grootify-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.grootify-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.grootify-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.grootify-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.grootify-close {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
